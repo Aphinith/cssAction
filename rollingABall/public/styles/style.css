@@ -1,3 +1,25 @@
 h1 {
   color: blue;
 }
+
+.paw {
+  transition: transform 250ms ease-in;
+}
+
+.playing .paw {
+  transform: translateX(30px);
+}
+
+
+
+
+
+/* 
+================================
+Necessary CSS Below-- no need to edit */
+
+.paw {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
