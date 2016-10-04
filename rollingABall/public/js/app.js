@@ -6,6 +6,10 @@ $('.success').click(function() {
 //   $("body").addClass("playing");
 // });
 
-$('.meow').click(function() {
+$(".meow").click(function() {
   $("body").addClass("playing");
+})
+
+$(".reset").click(function() {
+  $("body").removeClass("playing");
 })
