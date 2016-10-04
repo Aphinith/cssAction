@@ -13,3 +13,12 @@ $(".meow").click(function() {
 $(".reset").click(function() {
   $("body").removeClass("playing");
 })
+
+var colors = ['red', 'blue', 'green', 'black', 'orange', 'purple', 'yellow']
+
+$(document).ready(function() {
+  setInterval(function() {
+    var random = Math.floor((Math.random() * (colors.length + 1) ));
+    $("button").css("background-color", colors[random]);
+  }, 300);
+})
