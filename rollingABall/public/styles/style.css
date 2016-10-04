@@ -1,5 +1,15 @@
 h1 {
   color: blue;
+  float: left;
+}
+
+.meow {
+  top: 18px;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 30px;
+  background-color: aquamarine;
+  color: red;
 }
 
 .paw {
@@ -10,16 +20,28 @@ h1 {
   transform: translateX(30px);
 }
 
+.ball {
+  transition: transform 5000ms ease-out 250ms;
+}
 
+.playing .ball {
+  transform: translateX(500px);
+}
 
-
-
-/* 
-================================
-Necessary CSS Below-- no need to edit */
+/*CSS for paw and ball image*/
 
 .paw {
   position: absolute;
   top: 60px;
   left: 80px;
+}
+
+div.ball {
+  background: #0097C0;
+  border-radius: 50%;
+  position: absolute; 
+  top: 250px; 
+  left: 160px;
+  width: 100px; 
+  height: 100px;
 }
