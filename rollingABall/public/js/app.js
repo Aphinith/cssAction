@@ -18,7 +18,7 @@ var colors = ['red', 'blue', 'green', 'black', 'orange', 'purple', 'yellow']
 
 $(document).ready(function() {
   setInterval(function() {
-    var random = Math.floor((Math.random() * (colors.length + 1) ));
+    var random = Math.floor((Math.random() * (colors.length) ));
     $("button").css("background-color", colors[random]);
   }, 300);
 })

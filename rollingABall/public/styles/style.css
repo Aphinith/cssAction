@@ -34,7 +34,7 @@ h1 {
 }
 
 .ball {
-  transition: background 2000ms ease-in 1000ms, transform 4000ms ease-out 250ms, border 2500ms ease-out 1000ms;
+  transition: background 2000ms ease-in 1000ms, transform 2000ms ease-in-out 250ms, border 2500ms ease-out 1000ms;
 }
 
 .playing .ball {
