@@ -34,11 +34,13 @@ h1 {
 }
 
 .ball {
-  transition: transform 5000ms ease-out 250ms;
+  transition: background 2000ms ease-in 1000ms, transform 4000ms ease-out 250ms, border 2500ms ease-out 1000ms;
 }
 
 .playing .ball {
   transform: translateX(500px);
+  background: red;
+  border: 10px solid black;
 }
 
 /*CSS for paw and ball image*/
