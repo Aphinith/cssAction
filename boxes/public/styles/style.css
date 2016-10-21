@@ -3,6 +3,13 @@ h1 {
   text-align: center;
 }
 
+.divider {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 15px 0;
+}
+
 /***********************************************************
 FIRST ROW OF BOXES
 ***********************************************************/
@@ -11,11 +18,31 @@ FIRST ROW OF BOXES
   width: 50px;
   height: 50px;
   background-color: red;
-  margin: 10px;
+  margin: 9px;
   float: left;
 }
 
 .first_row {
+  margin: auto;
+  width: 50%;
+  height: 75px;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+/***********************************************************
+SECOND ROW OF BOXES
+***********************************************************/
+
+.second_row .box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin: 9px;
+  float: left;
+}
+
+.second_row {
   margin: auto;
   width: 50%;
   height: 75px;
