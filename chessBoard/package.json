@@ -1,0 +1,26 @@
+{
+  "name": "chessboard",
+  "version": "1.0.0",
+  "description": "Creating a chess board using javascript and css",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aphinith/cssAction.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Aralya Phinith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aphinith/cssAction/issues"
+  },
+  "homepage": "https://github.com/Aphinith/cssAction#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
