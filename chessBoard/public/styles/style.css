@@ -3,16 +3,20 @@ h1 {
   text-align: center;
 }
 
+.main-board {
+  margin: auto;
+  width: 50%;
+}
+
 .row {
   width: 100%;
-  height: 60px;
+  height: 50px;
   float: left;
 }
 
 .square {
   float: left;
-  margin: 10px;
-  background-color: blue;
+  background-color: black;
   height: 50px;
   width: 50px;
 }

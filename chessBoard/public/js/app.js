@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     var eachRow = document.getElementsByClassName("row");
-    console.log('this is eachRow: ', eachRow);
 
     //iterate through eachRow to add columns
     for (var j = 0; j < eachRow.length; j++) {
@@ -29,6 +28,31 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   createBoard(5, 5);
+
+  var allRows = document.getElementsByClassName("row");
+  // console.log('this is allRows: ', allRows);
+
+  for (var l = 0; l < allRows.length; l++) {
+    if (l%2 === 0) {
+      //do something here
+      var evenSquares = allRows[l].childNodes;
+      // console.log('evenSquares: ', evenSquares);
+      for (var m = 0; m < evenSquares.length; m++) {
+        if (m%2 === 0) {
+          evenSquares[m].style.backgroundColor = "red"
+        }
+      }
+    } else {
+      //do something here
+      var oddSquares = allRows[l].childNodes;
+      // console.log('oddSquares: ', oddSquares);
+      for (var n = 0; n < oddSquares.length; n++) {
+        if (n%2 !== 0) {
+          oddSquares[n].style.backgroundColor = "red"
+        }
+      }
+    }
+  }
 
 });
 
